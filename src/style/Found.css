@@ -1,0 +1,1320 @@
+/* General layout */
+.tit5 {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px; /* Adds space between the breadcrumb items */
+  align-items: center; /* Centers breadcrumb items vertically */
+  font-family: 'Georgia';
+}
+
+.breadcrumb55 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+
+  background-color: #a51d21;
+  border-radius: 10px;
+  padding: 5px 10px; /* Adjust padding for better spacing */
+}
+
+.breadcrumb05{
+
+  font-size: 40px;
+  margin-left: 0px;
+  color: #a51d21;
+  font-weight: bold;
+ 
+
+}
+.manage-bulletin1 {
+  margin: 30px;
+  display: flex;
+  align-items: flex-start; /* Align to the top */
+  flex-grow: 1; /* Take up the remaining space */
+  padding: 50px;
+  margin-left: 240px; /* Space to avoid8lap with the sidebar */
+  flex-direction:column;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+.search-bar1 {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  margin-top: -8px;
+   /*height: 3  00px; Full viewport height to center vertically */
+
+  
+}
+
+.search-bar1 input:hover {
+  border: .1rem solid #518be2;
+  
+}
+
+.search-bar1 input {
+  width: 435px;
+  height: 35px; /* Increased height for better visual balance with icons */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid #6d6c6c;
+  border-radius: 35px;
+  margin-top: 50px
+}
+
+.search-bar1 select:focus, .search-bar1 input:focus {
+  border-color: #3c6abe;
+  outline: none;
+  box-shadow: 0 0 5px rgb(60, 106, 190);
+
+}
+
+.search-bar1 input::placeholder {
+  font-weight: bold;
+  font-size:17px;
+  color: #888;
+
+}
+
+.search-icon1, .filter-icon1 {
+  color: #a92525;
+  cursor: pointer;
+  width: 30px; /* Adjust icon size for better proportion with the input */
+  height: 30px; /* Maintain square aspect ratio */
+}
+
+.search-icon1:hover, .filter-icon1:hover{
+  transform: translateY(-3px);
+}
+
+.search-input1 {
+  padding: 10px 40px 10px 40px; /* Add padding to the input */
+  width: 100%; /* Full width */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 4px; /* Rounded corners */
+  background: url('search.1024x1024.png') no-repeat 400px center; /* Background image */
+  background-size: 30px; /* Size of the icon */
+}
+
+
+/* Top-Right Buttons Container */
+.top-right-buttons1 {
+display: flex; /* Enable flexbox for alignment */
+align-items: center; /* Vertically center items */
+margin-left: 0px;
+margin-top: 20px;
+gap: 10px; /* Add spacing between the input and icons */
+
+}
+
+
+
+
+
+/* Button Styling */
+.add-item-btn1, .register-qr-btn1 {
+  background-color: #800000; /* Dark red color for buttons */
+  color: white;
+  padding: 10px 10px; /* Adjusted padding for better button sizing */
+  font-size: 20px;
+  height: 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px; /* Space between buttons */
+}
+
+.add-item-btn1:hover, .register-qr-btn1:hover {
+  background-color: #660000; /* Darker red on hover */
+  color: #ffd324;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+
+
+
+
+
+.view-btn1 {
+  background-color: #4c75af;
+  color: white;
+  padding: 5px 12px;
+  font-size: 15px;
+  margin: 0 2px; /* Adds horizontal spacing between buttons */
+  border: none;
+  width:115px;
+  cursor: pointer;
+  border-radius: 3px;
+  
+  border-radius: 6px;
+}
+
+
+.view-btn1:hover{
+  background-color: #5988c9;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+}
+
+
+
+/* modal
+.modal-overlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal1 {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal1 form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal1 .submit-btn1,
+.modal1 .cancel-btn1 {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal1 .submit-btn1 {
+  background: #4caf50;
+  color: white;
+}
+
+.modal1 .cancel-btn1 {
+  background: #f44336;
+  color: white;
+} */
+
+
+
+
+
+
+.button-container1 {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.status-btn1{
+color: white;
+padding: 5px 5px;
+font-size: 12px;
+margin: 0 2px; /* Adds horizontal spacing between buttons */
+border: none;
+cursor: pointer;
+font-size: 15px;
+width: 115px;
+border-radius: 20px;
+margin-left: 0px;
+
+}
+
+.status-btn1.unclaimed {
+background-color: red; /* Red for unclaimed */
+}
+
+.status-btn1.claimed {
+background-color: #4CAF50; /* Green for claimed */
+}
+
+.status-btn1.donated {
+  background-color: #646464; /* Red for unclaimed */
+  cursor: not-allowed; /* Not-allowed cursor for donated state */
+  opacity: 0.6; /* Slightly transparent to indicate disabled state */
+}
+
+
+
+.status-btn1.Unclaimed {
+background-color: red; /* Red for unclaimed */
+}
+
+.status-btn1.Claimed {
+background-color: #4CAF50; /* Green for claimed */
+}
+
+.status-btn1:hover{
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+}
+
+.arrow1 {
+width: 14px; /* Adjust icon size for better proportion with the input */
+height: 14px; /* Maintain square aspect ratio */
+}
+
+.table-container1 {
+width: 100%; /* Full width of the parent */
+max-width: 1600px; /* Set a max width for the container */
+margin: 30px auto 0; /* Center the container */
+overflow-x: auto; /* Enable horizontal scrolling */
+border: 1px solid #d5d2d2; /* Optional: Add a border around the container */
+border-radius: 1rem; /* Optional: Add rounded corners */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+
+
+
+.ffound-items-table1 {
+width: 100%; /* Full width of the table */
+border-collapse: collapse; /* Collapse borders */
+font-size: 14px; /* Font size */
+table-layout: auto; /* Use auto layout to allow for dynamic widths */
+}
+
+.ffound-items-table1 th, .ffound-items-table1 td {
+padding: 10px;
+border: 1px solid #d5d2d2;
+text-align: center;
+overflow: hidden; /* Prevent overflow */
+text-overflow: ellipsis; /* Add ellipsis for overflow text */
+white-space: normal; /* Allow text to wrap */
+vertical-align: top; /* Align text to the top */
+
+word-wrap: break-word; /* Allow long words to break */
+max-width: 200px; /* Set a max width for cells */
+}
+
+.ffound-items-table1 th {
+background-color: #ddd;
+}
+
+.ffound-items-table1 tr {
+height: auto; /* Allow rows to stretch based on content */
+}
+
+.ffound-items-table1 th.action, .ffound-items-table1 td.action {
+width: 50px; /* Adjust width as needed */
+text-align: center; /* Center-align the buttons */
+}
+
+
+
+.item-pic-input1 {
+border: 2px dashed #aaaaaa;
+padding: 20px;
+text-align: center;
+border-radius: 6px;
+background: #f9f9f9;
+font-size: 1rem;
+color: #777777;
+cursor: pointer;
+width: 100%; /* Ensures the input takes full width */
+}
+
+.item-pic1 input:hover {
+background: #f1f1f1;
+}
+
+.submit-btn1,
+.cancel-btn1,.delete-btn1, .edit-btn1 {
+padding: 15px;
+font-size: 1rem;
+font-weight: bold;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+width: 48%; /* Adjusted for button alignment */
+
+}
+
+.submit-btn1 {
+background-color: #45a049;
+color: white;
+}
+.submit-btn1:disabled {
+  background-color: #a5d6a7; /* Lighter green for disabled state */
+  color: #ccc; /* Light gray text */
+  cursor: not-allowed;
+}
+.cancel-btn1 {
+background-color: #FF0000;
+color: white;
+}
+
+.delete-btn1 {
+background-color: #8B0000;
+color: white;
+}
+.edit-btn1 {
+background-color: #0090ea;
+color: white;
+}
+
+
+
+.submit-btn1:hover {
+background-color: #61ce67;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+}
+
+.cancel-btn1:hover {
+background-color: #dd1f1f;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+}
+
+.delete-btn1:hover {
+background-color: #c01515;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+}
+
+.edit-btn1:hover {
+background-color: #1299ed;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+}
+
+
+
+
+
+
+
+
+.modal-overlay1 {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+}
+
+.modal1 {
+width: 880px;         /* Extend the modal width */
+margin: 50px auto;    /* Center modal on the screen */
+padding: 20px;
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+max-height: 85vh; /* Limit height to enable scrolling */
+overflow-y: auto; /* Enable vertical scrolling */
+
+}
+
+.modal1 h2 {
+  padding: 10px;
+  width: 90%;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 40px;
+  border-bottom: 2px solid #a51d21;
+}
+
+.modal1 form {
+display: grid;
+grid-template-columns: 1fr, 1fr, 320px; /* Two columns for labels and inputs */
+gap: 20px;
+width: 100%; /* Ensure the form takes full width */
+}
+
+.form-group1 {
+display: flex;
+flex-direction: column; /* Stack label above input */
+width: 100%; /* Ensure full width */
+}
+
+
+
+.modal1 label {
+font-weight: 500;
+color: #444444;
+margin-bottom: 5px;
+}
+
+.modal1 select{
+font-weight: 500;
+color: #444444;
+margin-bottom: 5px;
+}
+
+.modal1 textarea{
+font-weight: 500;
+color: #444444;
+margin-bottom: 5px;
+height: 50px;
+}
+
+.modal1 input,
+.modal1 select,
+.modal1 textarea {
+padding: 12px;
+font-size: 1rem;
+border: 1px solid #cccccc;
+border-radius: 6px;
+width: 90%;
+}
+
+.modal1 input:focus,
+.modal1 select:focus,
+.modal1 textarea:focus {
+border-color: #3c6abe;
+outline: none;
+box-shadow: 0 0 5px rgb(60, 106, 190);
+}
+
+.form-and-camera {
+display: flex;
+gap: 20px;            /* Space between form and camera */
+align-items: flex-start; /* Align items at the top; adjust if needed */
+}
+
+.form-fields {
+flex: 2;
+display: grid;
+grid-template-columns: 1fr 1fr;  /* Two columns for fields */
+gap: 15px;
+}
+
+.form-group1 {
+display: flex;
+flex-direction: column;
+}
+
+/* If any input needs to span full width, you can use: */
+.form-group1.full-width {
+grid-column: 1 / -1;
+}
+
+.camera-section {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+/* Fix the height to roughly match the form fields height */
+height: 100%;
+padding-top: 10px;
+}
+
+.camera-buttons {
+margin-top: 10px;
+}
+
+
+
+/* -------------------------------------------------- */
+
+.found-details1 {
+display: flex;
+flex-direction: column; /* Stack items vertically */
+width: 100%; /* Full width */
+padding: 10px 0; /* Add some padding to the details container */
+}
+
+.detail-grid1 {
+display: grid;
+grid-template-columns: 1fr 1fr; /* Two equal columns */
+gap: 10px; /* Space between grid items */
+width: auto;
+}
+
+/* dhea */
+.detail-item1 {
+display: flex; /* Use flexbox to align items */
+justify-content: space-between; /* Space between label and value */
+padding: 8px 0; /* Adjust padding for detail items */
+max-width: 100%; /* Prevent stretching beyond the container */
+
+}
+
+.detail-item2 {
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Space between label and value */
+  padding: 8px 0; /* Adjust padding for detail items */
+  max-width: 100%; /* Prevent stretching beyond the container */
+  
+  }
+
+/* dhea */
+
+.detail-item1 strong {
+color: #555; /* Label color */
+}
+
+.detail-item1 span {
+color: #333; /* Value color */
+text-align: left; /* Align text to the right */
+white-space: normal; /* Allow text to wrap to the next line */
+overflow-wrap: break-word; /* Break long words if necessary */
+flex: 1; /* Allow the span to take available space */
+max-width: 300px; /* Set a maximum width for the span */
+
+}
+
+/* ------------------------------------------------------------------ */
+.grid-container1 {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+margin-top: 30px;
+row-gap: 35px; /* Space between grid items */
+column-gap:85px;
+padding: 16px; /* Padding around the grid */
+width: 95%; /* Ensure the grid takes full width */
+
+justify-items: left; /* Center items within their grid cells */
+}
+
+
+
+.grid-item1 {
+overflow-y: auto;  /* Enable vertical scrolling */
+word-wrap: break-word;
+background-color: #f0f0f0; /* Background color for items */
+padding: 20px; /* Padding inside items */
+border: 1px solid #ccc; /* Optional: Border for items */
+border-radius: 1rem; /* Rounded corners */
+text-align: center; /* Center text */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Shadow for items */
+width: 105%; /* Ensure grid items take full width of their cell */
+}
+
+
+.grid-item1 h2 {
+overflow: hidden; /* Hide overflowing content */
+color: #8B0000;
+text-align: center; /* Align text to the left */
+font-weight: bold; /* Make the text bold */
+margin-bottom:20px ; /* Remove default margin */
+
+overflow-y: auto; /* Enable vertical scrolling for paragraphs */
+
+}
+
+.grid-item1 p {
+margin-top: 20px;
+text-align: left; /* Align text to the left */
+margin: 5px 0; /* Add some vertical spacing */
+font-weight: normal; /* Normal weight for paragraph text */
+max-height: 100px; /* Set a maximum height for paragraphs */
+overflow-y: auto; /* Enable vertical scrolling for paragraphs */
+
+}
+.grid-item1 span {
+font-weight: bold; /* Normal weight for paragraph text */
+
+}
+.view-mode-toggle1 {
+background: none; /* No background */
+border: none; /* No border */
+cursor: pointer; /* Pointer cursor on hover */
+font-size: 38px; /* Adjust size of the icon */
+color: #8B0000; /* Change color as needed */
+padding: 5px; /* Add some padding */
+margin-top: 60px;
+margin-left: 10px;
+
+}
+
+
+.view-mode-toggle1:hover {
+
+transform: translateY(-2px);
+color: #a50303; /* Change color on hover */
+
+
+}
+.view-excel-toggle1 {
+  background: none; /* No background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 38px; /* Adjust size of the icon */
+  color: #45a049; /* Green color for the icon */
+  padding: 10px 15px; /* Increase padding for better spacing */
+  margin-top: 50px;
+  border-radius: 8px; /* Rounded corners for the button */
+  transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.3s ease; /* Smooth transition effects */
+}
+
+/* Hover state */
+.view-excel-toggle1:hover {
+  color: #9fcaa1; /* Lighter green on hover */
+  transform: translateY(-4px); /* Slight lift effect */}
+
+/* Focus state */
+.view-excel-toggle1:focus {
+  outline: none; /* Remove outline */
+}
+
+/* Active state (when clicked) */
+.view-excel-toggle1:active {
+  transform: translateY(1px); /* Slightly pushed down when clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow when clicked */
+}
+
+/* filtered.css */
+.tooltip-contexcel {
+  margin-top: 10px;
+  margin-left: -5px;
+  position: relative; /* Position relative for absolute positioning of tooltip */
+  display: inline-block; /* Allow tooltip to be positioned relative to the input */
+}
+
+.tooltip-excel {
+  visibility: hidden; /* Hidden by default */
+  width: 80px; /* Set width of tooltip */
+  background-color: #555; /* Dark background */
+  color: #fff; /* White text */
+  text-align: center; /* Center text */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px; /* Padding */
+  position: absolute; /* Position tooltip */
+  z-index: 1; /* Ensure tooltip is above other elements */
+  left: 100%; /* Center tooltip */
+  margin-left: -80px; /* Adjust to center */
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s; /* Smooth transition */
+  font-size: 14px;
+}
+
+/* Show tooltip on hover */
+.tooltip-contexcel:hover .tooltip-excel {
+  visibility: visible; /* Show tooltip */
+  opacity: 1; /* Make tooltip visible */
+  margin-top: 100px;
+}
+
+/* --------------------------------------------------------- */
+
+/* -------------------------------------------- */
+
+.default-table-url1 {
+width: 100%;
+height: auto;
+
+border-Radius: 5px; 
+}
+.default-table-url11 {
+width: 100%;
+height: auto;
+margin-bottom: 10px;
+border-Radius: 5px; 
+cursor:pointer;
+}
+
+.default-table-url11:hover {
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+}
+
+.default-grid-url1 {
+  width: 100%;
+  height: auto;
+  
+  border-Radius: 5px; 
+  }
+  .default-grid-url11 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-Radius: 1rem; 
+  cursor:pointer;
+  }
+  
+  .default-grid-url11:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+  }
+
+/* --------------------------------------------------- */
+
+.tabs1 {
+display: flex; /* Use flexbox */
+justify-content: center; /* Center items horizontally */
+margin: 0 4rem 2rem; /* Keep your existing margins */
+padding: 5px;
+border-radius: 0px;
+margin-top: 20px;
+/* border-bottom: 2px solid #a51d21; Permanent line below the tabs */
+}
+
+.tab-button1{
+background-color: #ffffff;
+border: 0px solid #ccc;
+padding: 10px 100px;
+margin-right: 5px;
+cursor: pointer;
+border-radius: 15px;
+transition: background-color 0.3s;
+margin-right:10px;
+font-weight: bold; /* Make text bold */
+font-size: 17px;
+}
+
+
+.tab-button1.active {
+background-color: #a51d21;
+color: white;
+}
+
+.tab-button5.active:hover {
+color: #a51d21;
+border: 0px solid #ccc;
+background-color: white;
+text-shadow: -3px 3px 4px rgba(0, 0, 0, 0); /* Add text shadow */
+}
+
+.tab-button1:hover {
+background-color: #ffffff;
+color:#000000;
+transform: translateY(-3px);
+text-shadow: -3px 3px 4px rgba(0, 0, 0, 0.3 ); /* Add text shadow */
+}
+
+.tit7 {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px; /* Adds space between the breadcrumb items */
+  align-items: center; /* Centers breadcrumb items vertically */
+  font-family: 'Georgia';
+}
+
+.breadcrumb57 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+
+  background-color: #a51d21;
+  border-radius: 10px;
+  padding: 5px 10px; /* Adjust padding for better spacing */
+}
+
+.breadcrumb07 {
+
+  font-size: 40px;
+  margin-left: 0px;
+  color: #a51d21;
+  font-weight: bold;
+}
+.buttons {
+  width: 240px;
+  overflow-x: hidden;
+}
+
+
+/* camera scanner */
+
+.camera-sectionsms {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #f1f1f1;
+padding: 10px;
+margin: 20px;
+}
+
+.manage-bulletin0 {
+margin: 60px 10px;
+align-items: flex-start; /* Align to the top */
+flex-grow: 1; /* Take up the remaining space */
+padding: 50px;
+margin-left: 240px; /* Space to avoid8lap with the sidebar */
+flex-direction:column;
+border-radius: 10px;
+}
+
+.ska{
+margin-top: -30px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+font-weight: 700;
+color: #2d2d2d;
+}
+
+
+.scan-icon {
+font-size: 4rem;
+color: #a51d21;
+}
+
+  .submit-btn60,
+  .delete-btn69 {
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  margin-left: 45px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 25%; /* Adjusted for button alignment */
+  
+  }
+  .cancel-btn69{
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    margin-left: 60px;
+    border-radius: 6px;
+    height: 25%;
+    cursor: pointer;
+    width: 25%; /* Adjusted for button alignment */
+    
+    }
+    .delete-btn69 {
+      background-color: #8B0000;
+      color: white;
+      }
+      .cancel-btn69 {
+        background-color: #FF0000;
+        color: white;
+        }  
+
+.are-you-sure{
+    background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+  width: 15%;
+}
+/* ---------------------------------------------------------------------- */
+.captured-image {
+  margin-top: 10px;
+  max-width: 20rem; /* or any desired width */
+  max-height: 15rem;
+  border:0.1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  }
+
+  @media (max-width: 768px) {
+.are-you-sure{
+    background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+  width: 55%;
+  height:120px;
+}
+    .submit-btn60,
+  .delete-btn69 {
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  margin-left: 45px;
+  border-radius: 6px;
+  cursor: pointer;
+    height:25%;
+  width: 30%; /* Adjusted for button alignment */
+  
+  }
+    /* dhea: media ra ang na change */
+
+    .manage-bulletin1 {
+      margin-left: 0px;
+    }
+    .tit5 {
+      margin-top: 20px;
+      margin: 0px -20px;
+
+      display: flex;
+      gap: 10px; /* Adds space between the breadcrumb items */
+      align-items: center; /* Centers breadcrumb items vertically */
+      font-family: 'Georgia';
+
+    }
+    
+    .breadcrumb55 {
+      font-size: 25px;
+      color: #ffffff;
+      font-weight: bold;
+    
+      background-color: #a51d21;
+      border-radius: 10px;
+      padding: 5px 10px; /* Adjust padding for better spacing */
+    }
+    
+    .breadcrumb05 {
+    
+      font-size: 25px;
+      margin-left: 0px;
+      color: #a51d21;
+      font-weight: bold;
+    }
+    
+    .search-bar1 {
+      margin-left: -10px;
+      margin-top: -80px;
+      
+    }
+    .search-bar1 input {
+      height: 25px; /* Increased height for better visual balance with icons */
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 15px;
+      border: 1px solid #6d6c6c;
+      border-radius: 35px;
+      margin-left: -20px;
+      width: 210px;
+      margin-top: 90px;
+    }
+
+    .view-mode-toggle1 {
+      background: none; /* No background */
+      border: none; /* No border */
+      cursor: pointer; /* Pointer cursor on hover */
+      font-size: 38px; /* Adjust size of the icon */
+      color: #8B0000; /* Change color as needed */
+      padding: 5px; /* Add some padding */
+      margin-top: 100px;
+      margin-left: 0px;
+      
+      }
+
+      .view-excel-toggle1 {
+        background: none; /* No background */
+        border: none; /* No border */
+        cursor: pointer; /* Pointer cursor on hover */
+        font-size: 38px; /* Adjust size of the icon */
+        color: #45a049; /* Green color for the icon */
+        padding: 10px 5px; /* Increase padding for better spacing */
+        margin-top: 90px;
+        border-radius: 8px; /* Rounded corners for the button */
+        transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.3s ease; /* Smooth transition effects */
+      }
+
+        
+      /* Top-Right Buttons Container */
+      .top-right-buttons1 {
+        margin-top: 5px;
+        margin-left: 0px;
+        gap: 5px;
+      }
+    /* table */
+  
+    .table-container1 {
+      width: 140%;
+
+      margin: 30px auto 0 -30px; /* Center the container */
+      overflow-x: auto; /* Enable horizontal scrolling */
+      border: 1px solid #d5d2d2; /* Optional: Add a border around the container */
+      border-radius: 1rem; /* Optional: Add rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+      }
+    
+    /* Top-Right Buttons Container */
+    .top-right-buttons1 {
+      width: 100%;
+      margin-left: -0px;
+      gap: 5px;
+    }
+    
+    .add-item-btn1, .register-qr-btn1 {
+      width: 100%;
+      min-width: 150px;
+      font-size: 15px;
+    }
+    
+    .status-btn1 {
+      border-radius: 5px;
+    }
+    .grid-container1 {
+      margin-top: 50px;
+    }
+    .grid-item1 {
+      width: 110%; /* Ensure grid items take full width of their cell */
+    }
+    .tabs1 {
+      display: flex; /* Use flexbox */
+      justify-content: center; /* Center items horizontally */
+      margin: 0 4rem 2rem; /* Keep your existing margins */
+      padding: 5px;
+      border-radius: 0px;
+      margin-top: 20px;
+      border-bottom: 2px solid #a51d21; /* Permanent line below the tabs */
+    }
+    
+    .tab-button1 {
+      background-color: #ffffff;
+      border: 0px solid #ccc;
+      padding: 10px 30px;
+      margin-right: 10px; /* Corrected margin-right */
+      cursor: pointer;
+      border-radius: 15px;
+      transition: background-color 0.3s;
+      font-weight: bold; /* Make text bold */
+      font-size: 16px;
+      white-space: nowrap; /* Prevent the text from wrapping into multiple lines */
+    }
+    
+
+    /* modal---- */
+    .modal-overlay1 {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    
+    .modal1 {
+
+      width: 85%;         /* Adjust width for responsiveness */
+      max-width: 600px;   /* Limit maximum width */
+      margin: 50px auto;  /* Center modal on the screen */
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-height: 80vh;   /* Limit height to enable scrolling */
+      overflow-y: auto;   /* Enable vertical scrolling */
+
+    }
+    
+    .modal1 h2 {
+      margin: 0 -10px 0px 5px;
+      margin-bottom: 30px;
+      margin-top: -10px;
+      font-size: 1.5rem;
+      color: #000000;
+      text-align: center;
+      font-weight: bold;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      border-radius: 0px;
+      border-bottom: 2px solid #a51d21;
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    .modal1 form {
+      display: flex;
+      flex-direction: column; /* Single column layout */
+      gap: 15px;
+      width: 90%; /* Ensure the form takes full width */
+    }
+    
+    .form-group1 {
+      display: flex;
+      flex-direction: column; /* Stack label above input */
+      width: 100%; /* Ensure full width */
+    }
+    
+    .modal1 label {
+      font-weight: 500;
+      color: #444444;
+      margin-bottom: 5px;
+    }
+    
+    .modal1 select,
+    .modal1 textarea,
+    .modal1 input {
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #cccccc;
+      border-radius: 6px;
+      width: 100%; /* Adjusted for full width in single column */
+    }
+    
+    .modal1 input:focus,
+    .modal1 select:focus,
+    .modal1 textarea:focus {
+      border-color: #3c6abe;
+      outline: none;
+      box-shadow: 0 0 5px rgb(60, 106, 190);
+    }
+    
+    /* Camera section moved after STATUS and set to full width */
+    .status-group {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .camera-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%; /* Full width for single column layout */
+      padding-top: 10px;
+    }
+    
+    .camera-section video,
+    .captured-image {
+      width: 100%; /* Ensure full width */
+      max-width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+    
+    .camera-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .form-and-camera {
+      flex-direction: column;
+    }
+    .camera-section {
+      order: 1; /* Move the camera section below */
+    }
+
+    .button-container1 {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .detail-grid1 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px; /* Space between grid items */
+      width: auto;
+      }
+      
+   
+      .detail-item1 {
+        padding: 5px;
+        flex-direction: column;
+      }
+    .detail-item2 {
+      display: flex; /* Use flexbox to align items */
+      justify-content: space-between; /* Space between label and value */
+      flex-direction: column;
+      padding: 8px 0; /* Adjust padding for detail items */
+      max-width: 100%; /* Prevent stretching beyond the container */
+      }
+
+      .cancel-btn1, .edit-btn1,.delete-btn1, .submit-btn1 {
+        padding: 10px;
+        font-size: small;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 48%;
+      }
+
+ /* camera */
+ .tit7 {
+  margin-top: 20px;
+  margin: -30px -20px;
+  display: flex;
+  gap: 10px; /* Adds space between the breadcrumb items */
+  align-items: center; /* Centers breadcrumb items vertically */
+  font-family: 'Georgia';
+
+}
+
+.breadcrumb57 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+
+  background-color: #a51d21;
+  border-radius: 10px;
+  padding: 5px 10px; /* Adjust padding for better spacing */
+}
+
+.breadcrumb07 {
+
+  font-size: 25px;
+  margin-left: 0px;
+  color: #a51d21;
+  font-weight: bold;
+}
+.manage-bulletin0 {
+  margin: 60px 10px;
+  align-items: flex-start; /* Align to the top */
+  flex-grow: 1; /* Take up the remaining space */
+  padding: 50px;
+  margin-left: 0px; /* Space to avoid8lap with the sidebar */
+  flex-direction:column;
+  border-radius: 10px;
+}
+
+.camera-sectionsms {
+
+  margin-left: 0px;
+  margin-top: 50px;
+  background-color: transparent;
+}
+
+.qr-scanner {
+  margin-left: 30px;
+  width: 150%;
+  max-width: 1000px;
+ 
+}
+
+.ska{
+  margin-top: -30px;
+  margin-left: -20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  width: 300px;
+}
+
+.ska h2 {
+
+  font-size: 25px;
+}
+.scan-icon {
+  font-size: 2.5rem;
+  color: #a51d21;
+}
+
+.manage-bulletin0 {
+  margin: 60px 10px;
+  align-items: flex-start; /* Align to the top */
+  flex-grow: 1; /* Take up the remaining space */
+  padding: 50px;
+  margin-left: 0px; /* Space to avoid8lap with the sidebar */
+  flex-direction:column;
+  border-radius: 10px;
+  }
+    }

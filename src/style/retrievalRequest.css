@@ -1,0 +1,1395 @@
+/* General layout */
+.tit1 {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px; /* Adds space between the breadcrumb items */
+  align-items: center; /* Centers breadcrumb items vertically */
+  font-family: 'Georgia';
+}
+
+.breadcrumb51 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+
+  background-color: #a51d21;
+  border-radius: 10px;
+  padding: 5px 10px; /* Adjust padding for better spacing */
+}
+
+.breadcrumb01 {
+
+  font-size: 40px;
+  margin-left: 0px;
+  color: #a51d21;
+  font-weight: bold;
+ 
+
+}
+  .manage-bulletin6 {
+    margin: 30px;
+    display: flex;
+    align-items: flex-start; /* Align to the top */
+    flex-grow: 1; /* Take up the remaining space */
+    padding: 50px;
+    margin-left: 240px; /* Space to avoid8lap with the sidebar */
+    flex-direction:column;
+  }
+
+  
+  /* ----------------------------------------------------------------------------- */
+  
+  
+  
+  .search-bar6 {
+    display: flex; /* Enable flexbox for alignment */
+    align-items: center; /* Vertically center items */
+    left: -20px;
+    top: 50px;
+    
+     /*height: 300px; Full viewport height to center vertically */
+    /* gap: 10px; Add spacing between the input and icons */
+    position: relative;
+    
+  }
+
+  .search-bar6 input:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .search-bar6 input {
+    width: 435px;
+    height: 35px; /* Increased height for better visual balance with icons */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #6d6c6c;
+    border-radius: 35px;
+  }
+
+  .search-bar6 select:focus, .search-bar6 input:focus {
+    border-color: #3c6abe;
+    outline: none;
+    box-shadow: 0 0 5px rgb(60, 106, 190);
+
+  }
+
+  .search-bar6 input::placeholder {
+    font-weight: bold;
+    font-size:17px;
+    color: #888;
+
+  }
+  
+  .search-icon6, .filter-icon6 {
+    color: #a92525;
+    cursor: pointer;
+    width: 30px; /* Adjust icon size for better proportion with the input */
+    height: 30px; /* Maintain square aspect ratio */
+  }
+
+  .search-icon6:hover, .filter-icon6:hover{
+    transform: translateY(-3px);
+  }
+
+  .search-input6 {
+    padding: 10px 40px 10px 40px; /* Add padding to the input */
+    width: 100%; /* Full width */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    background: url('search.1024x1024.png') no-repeat 400px center; /* Background image */
+    background-size: 30px; /* Size of the icon */
+  }
+  
+
+/* Top-Right Buttons Container */
+.top-right-buttons6 {
+  display: flex; /* Enable flexbox for alignment */
+  align-items: center; /* Vertically center items */
+  left: -480px;
+  top: 100px;
+  gap: 10px; /* Add spacing between the input and icons */
+  position: relative;
+  }
+  
+  /* Button Styling */
+  .add-item-btn6, .register-qr-btn6 {
+    background-color: #800000; /* Dark red color for buttons */
+    color: white;
+    padding: 10px 10px; /* Adjusted padding for better button sizing */
+    font-size: 20px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px; /* Space between buttons */
+  }
+  
+  .add-item-btn6:hover, .register-qr-btn6:hover {
+    background-color: #660000; /* Darker red on hover */
+    color: #ffd324;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+  }
+  
+
+  
+ 
+  
+
+  
+  .view-btn6 {
+    background-color: #4c75af;
+    color: white;
+    padding: 5px 12px;
+    font-size: 15px;
+    margin: 5px 2px; /* Adds horizontal spacing between buttons */
+    border: none;
+    width:115px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+
+
+  .view-btn6:hover{
+    background-color: #6ba2f0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+  }
+  
+  .ppagination6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px; /* Adjust margin to avoid covering the table */
+    margin-left: 200px;
+    margin-bottom: 50px; /* Add some space below the pagination */
+    
+}
+
+.page-nav6 {
+    padding: 8px 12px;
+    margin: 0 10px; /* Adjust margin for better spacing */
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    border: 1px solid #8B0000;
+    background-color: #fff;
+    cursor: pointer;
+    color: #8B0000;
+    width: 120px;
+    border-radius:  10px;
+}
+
+.page-nav6.active {
+    background-color: #8B0000; /* Highlight the active page */
+    color: white; /* Change text color for active page */
+}
+
+.page-nav6:disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+    cursor: not-allowed;
+}
+.page-nav6:disabled:hover {
+  background-color: #dbd9d9;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.page-nav6:hover {
+  background-color: #f7d953;
+  color: #8B0000;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transform: translateY(-1px);
+}
+  
+  /* modal
+  .modal-overlay1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal1 {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .modal1 form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal1 .submit-btn1,
+  .modal1 .cancel-btn1 {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal1 .submit-btn1 {
+    background: #4caf50;
+    color: white;
+  }
+  
+  .modal1 .cancel-btn1 {
+    background: #f44336;
+    color: white;
+  } */
+  
+  
+
+.item-pic-input6 {
+    border: 2px dashed #aaaaaa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    background: #f9f9f9;
+    font-size: 1rem;
+    color: #777777;
+    cursor: pointer;
+    width: 100%; /* Ensures the input takes full width */
+}
+
+.item-pic6 input:hover {
+    background: #f1f1f1;
+}
+
+
+.submit-btn6 {
+    background-color: #45a049;
+    color: white;
+}
+
+.update-btn6 {
+  background-color: #45a049;
+  color: white;
+}
+
+.cancel-btn6 {
+    background-color: #FF0000;
+    color: white;
+}
+
+.delete-btn6 {
+  background-color: #8B0000;
+  color: white;
+}
+
+.close-btn-manager6{
+  background-color: #FF0000;
+  color: white;
+}
+
+.submit-btn6:hover {
+    background-color: #61ce67;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+}
+
+.update-btn6:hover {
+  background-color: #61ce67;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+.cancel-btn6:hover {
+    background-color: #dd1f1f;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+  }
+
+  .delete-btn6:hover {
+    background-color: #c01515;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+  }
+
+  .close-btn-manager6:hover {
+    background-color: #dd1f1f;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+  }
+
+  
+  .button-container6 {
+        display: flex  ;
+        width: 70%;
+        gap: 10px;
+        margin-left: 30px;
+
+  }
+
+  .button-container61 {
+    display: flex  ;
+    width: 100%;
+    gap: 10px;
+    margin-left: -315px;
+    margin-top: 110px;
+
+}
+
+  .status-btn6{
+    color: white;
+    padding: 5px 12px;
+    font-size: 12px;
+    margin: 0px 2px; /* Adds horizontal spacing between buttons */
+    border: none;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 0px;
+    display: inline-block; /* Ensure it behaves like a button */
+    max-height: none; /* Remove max-height */
+    overflow: visible; /* Ensure overflow is visible */
+    
+  }
+
+
+.status-btn6.declined {
+  background-color: red; /* Red for unclaimed */ 
+ }
+
+.status-btn6.approved {
+  background-color: #4CAF50; /* Green for claimed */
+  }
+
+.status-btn6.pending { 
+ background-color: #FFC107 ; /* Green for claimed */ 
+}
+
+.arrow6 {
+  width: 14px; /* Adjust icon size for better proportion with the input */
+  height: 14px; /* Maintain square aspect ratio */
+}
+
+
+
+
+
+
+.grid-container6 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+  margin-top: 30px;
+  margin-left: -37px;
+  row-gap: 35px; /* Space between grid items */
+  column-gap:85px;
+  padding: 16px; /* Padding around the grid */
+  width: 100%; /* Ensure the grid takes full width */
+  justify-items: left; /* Center items within their grid cells */
+}
+
+.grid-item6 {
+  overflow-y: auto;  /* Enable vertical scrolling */
+  max-height: 650px;
+  word-wrap: break-word;
+  background-color: #f0f0f0; /* Background color for items */
+  padding: 20px; /* Padding inside items */
+  border: 1px solid #ccc; /* Optional: Border for items */
+  border-radius: 4px; /* Rounded corners */
+  text-align: center; /* Center text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Shadow for items */
+  width: 105%; /* Ensure grid items take full width of their cell */
+}
+
+
+.grid-item6 h2 {
+  overflow: hidden; /* Hide overflowing content */
+  color: #8B0000;
+  text-align: center; /* Align text to the left */
+  font-weight: bold; /* Make the text bold */
+  margin-bottom:20px ; /* Remove default margin */
+
+  overflow-y: auto; /* Enable vertical scrolling for paragraphs */
+}
+
+.grid-item6 p {
+  margin-top: 20px;
+  text-align: left; /* Align text to the left */
+  margin: 10px 0; /* Add some vertical spacing */
+  font-weight: normal; /* Normal weight for paragraph text */
+  max-height: 100px; /* Set a maximum height for paragraphs */
+  overflow-y: auto; /* Enable vertical scrolling for paragraphs */
+  text-decoration: none; /* Prevent underline on hover */
+
+}
+
+.grid-item6 p:hover {
+  text-decoration: none; /* Prevent underline on hover */
+}
+
+
+
+.view-mode-toggle6 {
+  background: none; /* No background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 38px; /* Adjust size of the icon */
+  color: #8B0000; /* Change color as needed */
+  padding: 5px; /* Add some padding */
+  
+  margin-top: 5px;
+  
+}
+
+
+.view-mode-toggle6:hover {
+  
+  transform: translateY(-2px);
+  color: #a50303; /* Change color on hover */
+}
+
+/* -------------------------------------------- */
+
+.default-image-url6 {
+  width: 100%;
+  height: auto;
+  
+  border-Radius: 5px; 
+}
+.default-image-url16 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-Radius: 5px; 
+}
+
+
+
+
+/* ----------------------------------------------------- */
+.modal-overlay6 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000;
+}
+
+.modal6 {
+  width: 700px;         /* Extend the modal width */
+  margin: 50px auto;    /* Center modal on the screen */
+  padding: 20px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+}
+.modal66 {
+  display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 1000px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      text-align: left;
+      max-height: 90vh;
+      overflow-y: auto;
+  
+}
+.modal66 h2 {
+  padding: 10px;
+  width: 90%;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 40px;
+  border-bottom: 2px solid #a51d21;
+}
+.modal661 {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Align items to the start */
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 850px; /* Adjusted for a single column layout */
+  max-height: 85vh; /* Limit height to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  text-align: left;
+}
+.modal6 h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #222222;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card6 {
+  background: #f9f9f9; /* Light background for the card */
+  border-radius: 25px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  margin-bottom: 20px; /* Space between cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-height: 600px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+
+
+
+.card6 h2 {
+  padding: 10px;
+  width: 90%;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 0px;
+  border-bottom: 2px solid #a51d21;
+}
+
+.modal6 form {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 320px; /* Two columns for labels and inputs */
+  gap: 20px;
+  width: 100%; /* Ensure the form takes full width */
+}
+
+.form-group6 {
+  position: relative;
+  margin: 10px 0;
+}
+
+.form-group6 label {
+  position: absolute;
+  margin-top: -10px;
+  left: 0;
+  transform: translateY(0); /* Ensure it stays at the top */
+  font-size: 16px; /* Adjust size so it stays smaller at the top */
+  pointer-events: none;
+  padding: 0 5px;
+  display: block;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffff;
+  margin-left: 10px;
+}
+
+.form-group6 input,
+.form-group6 input[type="date"],
+.form-group6 input[type="time"],
+.form-group6 input[type="file"] {
+  width: 105%;
+  height:5vh;
+  padding: 0.5rem;
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.form-group6 textarea {
+  width: 100%;
+ max-height: 100%;
+ height: 3rem;
+
+}
+
+.form-group6 select {
+  height: 2.9rem;
+  width: 105%;
+} 
+
+.form-group6 input:focus~label,
+.form-group6 input:valid~label,
+.form-group6 select:focus~label,
+.form-group6 select:valid~label,
+.form-group6 textarea:focus~label,
+.form-group6 textarea:valid~label,
+.form-group6 input[type="date"]:focus~label,
+.form-group6 input[type="date"]:valid~label,
+.form-group6 input[type="time"]:focus~label,
+.form-group6 input[type="time"]:valid~label,
+.form-group6 input[type="file"]:focus~label {
+  background-color: #f8fcf9;
+  color: rgb(7, 7, 7);
+  font-size: 14px; /* Keeps the label size smaller when the field is focused or valid */
+  margin-top:-10px;
+}
+
+.form-group61 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 10px 0;
+  height: 50px;
+}
+
+.form-group61 label {
+  position: absolute;
+  margin-top: -10px;
+  left: 0;
+  transform: translateY(0); /* Ensure it stays at the top */
+  font-size: 16px; /* Adjust size so it stays smaller at the top */
+  pointer-events: none;
+  padding: 0 5px;
+  display: block;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffff;
+  margin-left: 10px;
+}
+
+.form-group61 input,
+.form-group61 input[type="date"],
+.form-group61 input[type="time"],
+.form-group61 input[type="file"] {
+  width: 105%;
+  height:5vh;
+  padding: 0.5rem;
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.form-group61 textarea {
+  width: 100%;
+ max-height: 100%;
+ height: 3rem;
+
+}
+
+.form-group61 select {
+  height: 2.9rem;
+  width: 105%;
+} 
+
+.form-group61 input:focus~label,
+.form-group61 input:valid~label,
+.form-group61 select:focus~label,
+.form-group61 select:valid~label,
+.form-group61 textarea:focus~label,
+.form-group61 textarea:valid~label,
+.form-group61 input[type="date"]:focus~label,
+.form-group61 input[type="date"]:valid~label,
+.form-group61 input[type="time"]:focus~label,
+.form-group61 input[type="time"]:valid~label,
+.form-group61 input[type="file"]:focus~label {
+  background-color: #f8fcf9;
+  color: rgb(7, 7, 7);
+  font-size: 14px; /* Keeps the label size smaller when the field is focused or valid */
+  margin-top:-10px;
+}
+
+
+.modal6 label {
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 5px;
+}
+
+.modal6 select{
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 5px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  width: 90%;
+}
+
+.modal6 textarea{
+font-weight: 500;
+  color: #444444;
+  margin-bottom: 5px;
+  height: 50px;
+}
+
+.modal6 input,
+.modal6 textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  width: 90%;
+}
+
+.modal6 input:focus,
+.modal6 select:focus,
+.modal6 textarea:focus {
+  border-color: #3c6abe;
+  outline: none;
+  box-shadow: 0 0 5px rgb(60, 106, 190);
+}
+
+.modal-details6 {
+  /* padding: 40px;
+  background-color: #faf8f8; */
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 70px; /* Space between columns */
+  border-radius: 10px;
+  margin-top: 20px; /* Space above the details */
+}
+
+.modal-detail6 {
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.modal-detail6  h2{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.modal-detail6:not(:last-child) {
+  border-right: 1px solid #ccc; /* Add a vertical line between the two columns */
+}
+
+.form-and-camera6 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.form-fields6 {
+  flex: 2;
+  gap: 10px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;  /* Two columns for fields */
+  gap: 15px;
+}
+
+
+
+/* If any input needs to span full width, you can use: */
+.form-group6.full-width {
+  grid-column: 1 / -1;
+}
+
+.camera-section6 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* Fix the height to roughly match the form fields height */
+  height: 100%;
+  padding-top: 10px;
+}
+
+.camera-buttons6 {
+  margin-top: 10px;
+}
+
+.captured-image6 {
+  margin-top: 10px;
+  width: 320px; /* or any desired width */
+  height: auto;
+}
+
+/* Image preview in the third column */
+.image-preview6{
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align the image */
+}
+  
+.uploaded-image6 {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: -40px; /* Add some space above the image */
+}
+
+
+/* ------------------------------------------ */
+
+.table-container6 {
+  width: 100%; /* Full width of the parent */
+  max-width: 1600px; /* Set a max width for the container */
+  margin: 30px auto 0; /* Center the container */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  border: 1px solid #d5d2d2; /* Optional: Add a border around the container */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+
+.ffound-items-table6 {
+  width: 100%; /* Full width of the table */
+  border-collapse: collapse; /* Collapse borders */
+  font-size: 14px; /* Font size */
+  table-layout: auto; /* Use auto layout to allow for dynamic widths */
+}
+
+.ffound-items-table6 th, .ffound-items-table6 td {
+  padding: 10px;
+  border: 1px solid #d5d2d2;
+  text-align: center;
+  overflow: hidden; /* Prevent overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  white-space: normal; /* Allow text to wrap */
+  vertical-align: top; /* Align text to the top */
+  
+  word-wrap: break-word; /* Allow long words to break */
+  max-width: 200px; /* Set a max width for cells */
+}
+
+.ffound-items-table6 th {
+  background-color: #ddd;
+}
+
+.ffound-items-table6 tr {
+  height: auto; /* Allow rows to stretch based on content */
+}
+
+.ffound-items-table6 th.action, .ffound-items-table6 td.action {
+  width: 50px; /* Adjust width as needed */
+  text-align: center; /* Center-align the buttons */
+}
+
+/* -------------------------------------------------- */
+.default-table-url4 {
+  width: 100%;
+  height: auto;
+  
+  
+
+}
+.default-table-url14 {
+  width: 40%;
+  height: auto;
+  margin-bottom: 10px;
+  border-Radius: 5px;
+   
+}
+
+.default-table-url14:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+cursor: pointer;
+}
+
+.default-grid-url4 {
+  width: 100%;
+  height: 35%;
+  margin-bottom: 10px;
+  border-Radius: 25px;
+  filter: blur(2px);
+}
+
+.default-grid-url114 {
+  width: 100%;
+  height: 35%;
+  margin-bottom: 10px;
+  border-Radius: 25px;
+   
+}
+
+.default-grid-url14 {
+  width: 100%;
+  height: 35%;
+  margin-bottom: 10px;
+  border-Radius: 25px;
+   
+}
+
+.default-grid-url14:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+transform: translateY(-1px);
+cursor: pointer;
+}
+
+/* ------------------------------------------- */
+
+.modal66 form {
+  display: grid ;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 30px;
+      width: 100%;
+      margin-right: 5rem;
+      margin-top: -30px;
+}
+.modal66 label {
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 5px;
+}
+
+.modal66 select{
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 5px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.modal66 textarea{
+  width: 110%;
+font-weight: 500;
+  color: #444444;
+  margin-bottom: 5px;
+  height: 5vh;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.modal66 input{
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+
+}
+
+.modal66 input:focus,
+.modal66 select:focus,
+.modal66 textarea:focus {
+  border-color: #3c6abe;
+  outline: none;
+  box-shadow: 0 0 5px rgb(60, 106, 190);
+}
+
+
+.submit-btn6,
+.cancel-btn6,.delete-btn6, .close-btn-manager6 ,.update-btn6 {
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 48%;
+
+}
+/* --------------------------------------------------- */
+
+
+
+
+.modal-overlay6 {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.delete67 {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  width: 300px;
+  text-align: center;
+}
+
+.delete67 p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left:5;
+  margin-bottom: 1.5rem;
+}
+
+.button-container6 {
+  margin-left:40px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.delete-btn6,
+.close-btn-manager6 {
+  margin-left:5;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.delete-btn6 {
+  background-color: #7f0000; /* Dark red */
+}
+
+.delete-btn6:hover {
+  background-color: #a00000;
+}
+
+.close-btn-manager6 {
+  background-color: #ff0000; /* Bright red */
+}
+
+.close-btn-manager6:hover {
+  background-color: #e60000;
+}
+
+@media (max-width: 768px) {
+  .modal-overlay6 {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+  }
+  
+  .delete67 {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    width: 270px;
+    text-align: center;
+  }
+  
+  .delete67 p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  
+  .button-container6 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .delete-btn6,
+  .close-btn-manager6 {
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .delete-btn6 {
+    background-color: #7f0000; /* Dark red */
+  }
+  
+  .delete-btn6:hover {
+    background-color: #a00000;
+  }
+  
+  .close-btn-manager6 {
+    background-color: #ff0000; /* Bright red */
+  }
+  
+  .close-btn-manager6:hover {
+    background-color: #e60000;
+  }
+  
+  .manage-bulletin6 {
+    padding: 50px;
+    margin-left: 0px; /* Space to avoid8lap with the sidebar */
+  }
+
+  .tit1 {
+    display: flex;
+    margin: 0px -20px;
+    gap: 10px; /* Adds space between the breadcrumb items */
+    align-items: center; /* Centers breadcrumb items vertically */
+    font-family: 'Georgia';
+  }
+
+  .breadcrumb51 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+  
+    background-color: #a51d21;
+    border-radius: 10px;
+    padding: 5px 10px; /* Adjust padding for better spacing */
+  }
+  
+  .breadcrumb01 {
+  
+    font-size: 30px;
+    margin-left: 0px;
+    color: #a51d21;
+    font-weight: bold;
+  }
+  .grid-item6 {
+
+    width: 110%; /* Ensure grid items take full width of their cell */
+  }
+  .search-bar6 {
+    margin-left: 15px;
+    margin-top: -140px;
+    
+  }
+  .search-bar6 input {
+    height: 25px; /* Increased height for better visual balance with icons */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #6d6c6c;
+    border-radius: 35px;
+    margin-left: -20px;
+    width: 240px;
+    margin-top: 100px;
+
+  }
+  .view-mode-toggle6{
+    margin-top: 110px;
+    margin-left:0px;
+    
+  }
+  .manage-bulletin6 {
+    padding: 50px;
+    margin-left: 0px; /* Space to avoid8lap with the sidebar */
+  
+  }
+  .grid-item6 {
+    margin-left: -10px;
+    width: 120%; /* Ensure grid items take full width of their cell */
+  }
+    
+
+
+  .button-container6 {
+    margin-left: 0px;
+    width: 100%;
+    gap: 10px;
+  }
+  /* MODAL */
+
+  .modal66 textarea{
+    width: 90%;
+  font-weight: 500;
+    color: #444444;
+    margin-bottom: 5px;
+    height: 5vh;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+  }
+
+  
+.modal66 select{
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 5px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  width: 100%;
+}
+  .card6 {
+    background: #f9f9f9; /* Light background for the card */
+    border-radius: 25px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin-bottom: 20px; /* Space between cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-height: 600px;
+    overflow-y: auto;
+    max-width:  100%;
+    width: 250px;
+    margin-left: -0px;
+    border: solid 1px #dfdddd;
+  }
+
+  .form-fields6 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-and-camera6 {
+    flex-direction: column;
+    
+  }
+
+  .modal66 input{
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    width: 100%;
+    min-height: 3rem;
+  }
+
+  
+.form-group6 input,
+.form-group6 input[type="date"],
+.form-group6 input[type="time"],
+.form-group6 input[type="file"],
+.form-group61 input[type="file"] {
+  width: 100%;
+  height:5vh;
+  padding: 0.5rem;
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+  /* table */
+
+  .table-container6 {
+    width: 140%; /* Full width of the parent */
+    max-width: 1600px; /* Set a max width for the container */
+    margin: 30px auto 0 -30px; /* Center the container */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    border: 1px solid #d5d2d2; /* Optional: Add a border around the container */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+  }
+
+
+/* modal */
+.modal66 {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 850px; /* Adjusted for a single column layout */
+  max-height: 80vh; /* Limit height to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Shadow for items */
+  text-align: left;
+  overflow-x: hidden;
+}
+
+.modal661 {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 850px; /* Adjusted for a single column layout */
+  max-height: 80vh; /* Limit height to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Shadow for items */
+  text-align: left;
+  overflow-x: hidden;
+}
+
+.button-container61 {
+  display: flex  ;
+  width: 100%;
+  gap: 10px;
+  margin-left: 0px;
+  margin-top: 10px;
+
+}
+
+
+.modal66 form {
+  display: flex ;
+  flex-direction: column;
+  gap: 10px 30px;
+  width: 100%;
+  margin-right: 5rem;
+  margin-top: 0px;
+} 
+
+.modal66 h2 {
+  margin: 0 -10px 0px 5px;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+
+  padding: 10px;
+  display: flex
+;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  border-radius: 0px;
+  border-bottom: 2px solid #a51d21;
+}
+
+  .modal-details6 {
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between columns */
+    margin-top: 20px; /* Space above the details */
+    margin-left: -10px;
+    padding: 10px; /* Prevents content from being cut off due to scrollbar */
+  }
+  
+  
+.modal67 {
+
+  width: 700px;         /* Extend the modal width */
+  margin: 70px auto;    /* Center modal on the screen */
+  padding: 20px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  background-color: #eceaea;
+  max-height: 700px; /* Adjust based on the desired maximum height */
+  overflow-y: auto; /* Enables vertical scrolling */
+ 
+}
+
+
+.submit-btn6,
+.cancel-btn6,.delete-btn6, .close-btn-manager6 ,.update-btn6 {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 48%; /* Adjusted for button alignment */
+
+}
+
+  
+.uploaded-image6 {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 0px; /* Add some space above the image */
+}
+} 

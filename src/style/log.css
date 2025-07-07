@@ -1,0 +1,507 @@
+/* General Styling */
+
+
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #800000, #a52a2a);
+}
+
+/* Auth Container */
+.auth-container2 {
+  width: 400px;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-top: 5px solid #FFCC00; /* Gold Accent */
+}
+
+/* Form Styling */
+.form-container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.title2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #800000;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+/* General Styling */
+
+
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #800000, #a52a2a);
+}
+
+/* Auth Container */
+.auth-container2 {
+  width: 400px;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-top: 5px solid #FFCC00; /* Gold Accent */
+}
+
+/* Form Styling */
+.form-container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.title2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #800000;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.input-container1 {
+  width: 85%;
+  margin: auto;
+  margin-left: 20px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-container1 input{
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px 12px 6px; /* Adjusted for label space */
+  border: 2px solid #800000; /* MSU-IIT Maroon */
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.input-container1 select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px 12px 6px; /* Adjusted for label space */
+  border: 2px solid #800000; /* MSU-IIT Maroon */
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.input-container {
+  width: 85%;
+  margin: auto;
+  margin-left: 20px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-container2 {
+  width: 85%;
+  margin: auto;
+  margin-left: 20px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+.input-container2 input{
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px 12px 6px; /* Adjusted for label space */
+  border: 2px solid #800000; /* MSU-IIT Maroon */
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.input-container input{
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px 12px 6px; /* Adjusted for label space */
+  border: 2px solid #800000; /* MSU-IIT Maroon */
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.input-container select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px 12px 6px; /* Adjusted for label space */
+  border: 2px solid #800000; /* MSU-IIT Maroon */
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.input-container1 select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px 12px 6px; /* Adjusted for label space */
+  border: 2px solid #800000; /* MSU-IIT Maroon */
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+.input-container2 select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px 12px 6px; /* Adjusted for label space */
+  border: 2px solid #800000; /* MSU-IIT Maroon */
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .loading-gif {
+    width: 20%
+  }
+}
+
+.input-container label {
+  position: absolute;
+  top: 50%; /* Adjust this value */
+  left: 14px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #800000; /* Maroon */
+  transition: 0.3s ease-in-out;
+  background: white;
+  padding: 0 5px;
+  pointer-events: none;
+}
+.input-container1 label {
+  position: absolute;
+  top: 50%; /* Adjust this value */
+  left: 14px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #800000; /* Maroon */
+  transition: 0.3s ease-in-out;
+  background: white;
+  padding: 0 5px;
+  pointer-events: none;
+}
+
+
+.input-container2 label {
+  position: absolute;
+  top: 50%; /* Adjust this value */
+  left: 14px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #800000; /* Maroon */
+  transition: 0.3s ease-in-out;
+  background: white;
+  padding: 0 5px;
+  pointer-events: none;
+}
+
+/* Floating label effect when typing */
+.input-container input:focus + label,
+.input-container input:valid + label,
+.input-container select:focus + label {
+  top: 5px; /* Adjust this value */
+  font-size: 12px;
+  color: #FFCC00; /* Gold */
+  padding: 0 5px;
+}
+
+.input-container2 input:focus + label,
+.input-container2 input:valid + label,
+.input-container2 select:focus + label {
+  top: 5px; /* Adjust this value */
+  font-size: 12px;
+  color: #FFCC00; /* Gold */
+  padding: 0 5px;
+}
+.input-container1 input:focus + label,
+.input-container1 input:valid + label,
+.input-container1 select:focus + label {
+  top: 5px; /* Adjust this value */
+  font-size: 12px;
+  color: #FFCC00; /* Gold */
+  padding: 0 5px;
+}
+.flex-container2{
+  display: flex;
+}
+.flex-container2 .input-container {
+  width: 50%;;
+}
+.flex-container2 .input-container2 {
+  width: 50%;;
+}
+.flex-container2.input-container input {
+  margin-top: 20px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.flex-container2.input-container1 input {
+  margin-top: 20px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.flex-container2.input-container2 input {
+  margin-top: 20px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.input-container select {
+  margin-top: 50px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+
+}
+.input-container1 select {
+  margin-top: 50px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+.input-container2 select {
+  margin-top: 50px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+/* Button Styling */
+.log-button {
+  background: #FFCC00; /* Gold */
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.log-button:hover {
+  background: #FFCC00; /* Gold */
+  color: #800000;
+  transform: scale(1.05);
+}
+
+/* Form Switch */
+.switch-link {
+  color: #FFCC00; /* MSU-IIT Yellow */
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.switch-link:hover {
+  color: #FFD700; /* Slightly lighter yellow on hover */
+}
+
+
+
+
+/* Hide Form */
+.hide {
+  display: none;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.loading-gif {
+  width: 10%
+}
+
+.flex-container2{
+  display: flex;
+}
+.flex-container2 .input-container {
+  width: 50%;;
+}
+
+.flex-container2.input-container input, .input-container select {
+  margin-top: 10px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.flex-container2.input-container1 input, .input-container1 select {
+  margin-top: 50px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+.flex-container2 .input-container2 {
+  width: 50%;;
+}
+
+.flex-container2.input-container2 input, .input-container2 select {
+  margin-top: 10px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.flex-container2.input-container2 input, .input-container2 select {
+  margin-top: 50px;
+  width: 95%;
+  padding: 14px 12px 6px;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: -10px;
+  background: #fff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+/* Button Styling */
+.log-button {
+  background: #FFCC00; /* Gold */
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.log-button:hover {
+  background: #FFCC00; /* Gold */
+  color: #800000;
+  transform: scale(1.05);
+}
+
+/* Form Switch */
+.switch-link {
+  color: #FFCC00; /* MSU-IIT Yellow */
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.switch-link:hover {
+  color: #FFD700; /* Slightly lighter yellow on hover */
+}
+
+
+
+
+/* Hide Form */
+.hide {
+  display: none;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.loading-gif {
+  width: 10%
+}
