@@ -22,7 +22,7 @@ const path = require('path');
 // Allow requests from local development and production frontend
 app.use(cors({
   origin: ['https://my-iit-lostandfound.onrender.com'],
-  credentials: true
+
 }));
 
 app.use(express.json());
