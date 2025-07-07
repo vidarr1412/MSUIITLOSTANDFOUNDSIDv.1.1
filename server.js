@@ -22,7 +22,7 @@ const path = require('path');
 // Allow requests from local development and production frontend
 // Allow requests from local development and production frontend
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5000', 'https://msuiitlostandfoundsid.onrender.com'],
+  origin: ['https://my-iit-lostandfound.onrender.com'],
   credentials: true
 }));
 
