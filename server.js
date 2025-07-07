@@ -20,11 +20,11 @@ const path = require('path');
 // Middleware
 // Allow requests from local development and production frontend
 // Allow requests from local development and production frontend
+
+
 app.use(cors({
-  origin: ['https://my-iit-lostandfound.onrender.com'],
-
+  origin: 'https://my-iit-lostandfound.onrender.com'// Replace with your actual frontend URL
 }));
-
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'build')));
 // app.use(express.static(path.join(__dirname, '/dist')));
