@@ -14,27 +14,23 @@ const PORT = process.env.PORT || 5000; // Render provides a dynamic port via pro
 const MONGO_URI = process.env.MONGO_URI;
 const SECRET_KEY = process.env.SECRET_KEY;
 const SHEETBEST_URL = process.env.SHEETBEST_URL;
-const origin_url=process.env.ORIGIN_URL;
 const FoundationSchema = require('./src/models/Foundation');
 const path = require('path');
 // Middleware
-// Allow requests from local development and production frontend
-// Allow requests from local development and production frontend
-
-
 app.use(cors({
-  origin: 'https://my-iit-lostandfound.onrender.com'// Replace with your actual frontend URL
+  origin: 'https://my-iit-lostandfound.onrender.com' // Replace with your actual frontend URL
 }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'build')));
+
+
+
 // app.use(express.static(path.join(__dirname, '/dist')));
 
 // // For any route, serve index.html from root's 'dist' folder
 // app.get('*', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 // });
-// const MONGO_URI = process.env.MONGO_URI;
-//
 mongoose
 .connect(MONGO_URI)
 .then(() => {
@@ -1049,11 +1045,9 @@ app.get("/items/foundation/:foundationId", async (req, res) => {
 });
 
 
-
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`deyamemyidol`);
 });
-
