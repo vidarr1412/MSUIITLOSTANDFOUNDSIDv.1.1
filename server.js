@@ -1,4 +1,3 @@
-require('dotenv').config(); // Must be at the top
 
 const express = require("express");
 const mongoose = require("mongoose"); 
